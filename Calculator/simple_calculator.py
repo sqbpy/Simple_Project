@@ -1,3 +1,4 @@
+print("******************WELCOME*******************")
 number1 = float(input("Enter fist number: "))
 op = input("Enter operator (+,-,*,/,**,%): ")
 number2 = float(input("Enter second number: "))
@@ -16,3 +17,4 @@ elif op == "-":
     print(number1 % number2)
 else:
     print("Invalid Operator")
+print("******************GOODBYE*******************")
